@@ -14,7 +14,7 @@ function Generatequote() {
     
     fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
       headers: {
-        'X-Api-Key': 'ZcwUG0SGWwWuuatKOhBYRw==36K3izeUH5uJXbEu',
+        'X-Api-Key': 'Enter Your key Here..',
         'Content-Type': 'application/json'
       }
     }).then(res => res.json()).then(data => {
